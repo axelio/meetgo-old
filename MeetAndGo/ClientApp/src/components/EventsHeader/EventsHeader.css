@@ -1,0 +1,31 @@
+.events-header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../common/img/header.jpg);
+    background-size: cover !important;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-top: 58px;
+    min-height: 400px;
+    max-height: 400px;
+    z-index: 1;
+}
+
+.install-app-promo {
+    text-decoration: underline;
+    text-underline-position: under;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+    .events-header {
+        min-height: 370px;
+        max-height: 370px;
+    }
+}

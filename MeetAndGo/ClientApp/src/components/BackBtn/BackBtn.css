@@ -1,0 +1,11 @@
+.back-btn {
+    position: fixed;
+    left: 5%;
+    color: #094970;
+}
+
+@media (max-width: 1024px) {
+    .back-btn {
+        display: none;
+    }
+}

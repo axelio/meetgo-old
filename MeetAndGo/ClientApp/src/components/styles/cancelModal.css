@@ -1,0 +1,31 @@
+.cancel-modal {
+    max-width: 600px;
+    max-height: 350px;
+    justify-content: space-evenly;
+}
+
+.cancel-modal-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.cancel-modal-button {
+    background-color: #1293E3;
+}
+
+.cancel-modal-button:hover {
+    background-color: #118CD9;
+}
+
+.cancel-modal-button:active {
+    position: relative;
+    top: 1px;
+}
+
+@media (min-width: 500px) {
+    .cancel-modal-buttons {
+        max-width: 80%;
+    }
+}

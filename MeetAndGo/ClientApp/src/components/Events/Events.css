@@ -1,0 +1,38 @@
+.empty-events {
+    font-size: 18px;
+    max-width: 95%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    user-select: none;
+}
+
+.empty-events .other-days {
+    font-weight: 600;
+    color: #094970;
+    text-decoration: underline;
+    text-underline-position: under;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+.navigation-arrows {
+    width: 100%;
+    display: flex;
+    max-width: 800px;
+    color: #094971;
+}
+
+.nav-icon {
+    cursor: pointer;
+}
+
+.nav-icon--next {
+    margin-left: auto;
+}
+
+.ev-section {
+    margin: 0 auto;
+    padding: 40px 0px 32px 0px;
+}

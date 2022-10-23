@@ -1,0 +1,107 @@
+.company-booking-section {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.company-booking-hr-line {
+    border: 0;
+    height: 1px;
+    background-color: #cdcdd4;
+}
+
+.company-booking-event-info-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.company-booking-empty-info {
+    font-size: 18px;
+}
+
+.company-booking-error-info {
+    font-size: 18px;
+    color: #d21111;
+}
+
+.company-event-info-title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #094970;
+}
+
+.company-event-info-date {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.company-event-info-element {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.active-booking {
+    color: green;
+    font-weight: bold;
+}
+
+.visits-btn {
+    align-self: center;
+    max-width: 130px;
+    width: 100%;
+}
+
+.with-btn-container {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.btn-confirm {
+    background-color: #5bce5b;
+}
+
+.btn-cancel-enabled {
+    background-color: #dc7084;
+}
+
+.btn-confirm:hover {
+    background-color: #49bd49;
+}
+
+.btn-cancel-enabled:hover {
+    background-color: #c54d64;
+}
+
+.visits-btn-enabled:active {
+    position: relative;
+    top: 1px;
+}
+
+.btn-cancel-disabled {
+    background-color: #bcc4ca !important;
+    cursor: not-allowed !important;
+}
+
+.new-visit-btn {
+    background-color: #139BF0;
+    margin-bottom: 30px;
+}
+
+.visit-booking{
+    margin-top:16px;
+}
+
+@media (max-width: 768px) {
+    .info-mobile {
+        max-width: 98%;
+    }
+
+    .visits-btn {
+        padding: 11px 15px;
+        font-size: 12px;
+        max-width: 90px;
+        width: 100%;
+    }
+}

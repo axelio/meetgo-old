@@ -1,0 +1,35 @@
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.contact-text {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contact-list {
+    list-style-type: disc;
+    padding-inline-start: 20px;
+}
+
+.contact-list li {
+    margin-bottom: 7px;
+}
+
+.contact-link {
+    text-decoration: underline;
+    text-underline-position: under;
+    color: #094970;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+@media (max-width: 500px) {
+    .contact-content {
+        max-width: 95%;
+    }
+}

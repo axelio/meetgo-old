@@ -1,0 +1,90 @@
+.booking-modal {
+    max-width: 600px;
+    max-height: 410px;
+    justify-content: space-between;
+}
+
+.book-visit-button {
+    margin-top: 20px;
+    background-color: #1293E3;
+}
+
+.book-visit-button:hover {
+    background-color: #118CD9;
+}
+
+.book-visit-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.select-date {
+    font-size: 20px;
+    cursor: pointer;
+    min-width: 130px;
+    padding: 5px;
+    background-color: #e7ebf6;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: .25rem;
+}
+
+.booking-event-name {
+    font-size: 1.5rem;
+    color: #094971;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 500;
+}
+
+.booking-info {
+    justify-content: space-evenly;
+}
+
+.bookingmodal-input {
+    border: 1px solid #cdcdd4;
+    border-radius: .25rem;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgba(0, 0, 0, .06);
+}
+
+.booking-informations {
+    max-width: 97%;
+    margin-bottom: 10px;
+}
+
+.booking-payment {
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.booking-date {
+    color: #094971;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.verify-number-header {
+    text-align: center;
+    color: #094970;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.insert-token {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.polish-phone-number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}

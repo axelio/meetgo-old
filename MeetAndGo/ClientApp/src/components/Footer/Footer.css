@@ -1,0 +1,32 @@
+footer {
+    color: #fff;
+    background-color: #4C4C4C;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column nowrap;
+    min-height: 70px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+.footer-link:hover {
+    font-weight: bolder;
+}
+
+.footer-txt {
+    font-size: 14px;
+}
+
+.footer-links-container {
+    display: flex;
+    flex-flow: row wrap;
+    max-width: 360px;
+    width: 100%;
+    justify-content: space-around;
+}

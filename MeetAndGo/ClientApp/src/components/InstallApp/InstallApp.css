@@ -1,0 +1,32 @@
+.installapp-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.installapp-text {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.installapp-header {
+    font-weight: 600;
+    color: #094970;
+    margin: 0px 0px 20px 0px;
+}
+
+.installapp-system{
+    margin: 0px;
+}
+
+.installapp-list {
+    padding-inline-start: 20px;
+}
+
+@media (max-width: 500px) {
+    .installapp-content {
+        max-width: 95%;
+    }
+}

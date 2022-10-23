@@ -1,0 +1,18 @@
+.privacy-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 80px auto 40px auto;
+}
+
+.privacy-content ol li {
+    margin: 0em 1em 1em 0em;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+@media (max-width: 500px) {
+    .privacy-content {
+        max-width: 95%;
+    }
+}

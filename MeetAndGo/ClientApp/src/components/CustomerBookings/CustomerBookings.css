@@ -1,0 +1,70 @@
+.customer-booking-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customer-booking-hr-line {
+    border: 0;
+    height: 1px;
+    background-color: #cdcdd4;
+}
+
+.customer-booking-event-info-container {
+    width: 100%;
+    max-width: 800px;
+}
+
+.customer-booking-empty-info {
+    font-size: 18px;
+}
+
+.customer-booking-error-info {
+    font-size: 18px;
+    font-weight: 600;
+    color: #d21111;
+}
+
+.customer-event-info-title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #094970;
+}
+
+.customer-event-info-date {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.customer-event-info-element {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.cancel-booking-button {
+    margin-top: 10px;
+    background-color: #139BF0;
+}
+
+.cancel-booking-button-enabled:hover {
+    background-color: #118CD9;
+}
+
+.cancel-booking-button-enabled:active {
+    position: relative;
+    top: 1px;
+}
+
+
+@media (max-width: 500px) {
+    .info-mobile {
+        max-width: 95%;
+    }
+
+    .cancel-booking-button {
+        padding: 11px 15px;
+    }
+}

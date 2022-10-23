@@ -1,0 +1,84 @@
+.business-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.business-header {
+    font-weight: 600;
+    color: #094970;
+    max-width: 900px;
+}
+
+.bh3 {
+    margin: 12px 0px 12px 0px;
+}
+
+.business-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
+.business-list {
+    list-style-type: disc;
+    padding-inline-start: 20px;
+    margin-top: 0px;
+}
+
+.business-link {
+    text-decoration: none;
+    color: #139BF0;
+    font-weight: 500;
+}
+
+.business-events {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 32px;
+    margin-top: 8px;
+}
+
+.business-img-header {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../common/img/header.jpg);
+    background-size: cover !important;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin-top: 58px;
+    min-height: 280px;
+    max-height: 280px;
+    z-index: 1;
+}
+
+.business-section {
+    margin: 0 auto;
+    padding: 16px 0px 32px 0px;
+}
+
+.business-promo-text {
+    font-size: 2.6rem;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width: 769px) {
+    .business-content {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 500px) {
+    .business-promo-text {
+        font-size: 1.8rem;
+    }
+}
